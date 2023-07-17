@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Cucumber_Test_AdminLogin(failed)">
+    <classes>
+      <class name="Testrunners.LoginTestwithvalidCredentials">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- Testrunners.LoginTestwithvalidCredentials -->
+    </classes>
+  </test> <!-- Cucumber_Test_AdminLogin(failed) -->
+  <test thread-count="5" name="Cucumber_Test_errmsg(failed)">
+    <classes>
+      <class name="Testrunners.ErrmsgTest">
+        <methods>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- Testrunners.ErrmsgTest -->
+    </classes>
+  </test> <!-- Cucumber_Test_errmsg(failed) -->
+  <test thread-count="5" name="Cucumber_Test_empreg(failed)">
+    <classes>
+      <class name="Testrunners.NewEmployeeRegistration">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- Testrunners.NewEmployeeRegistration -->
+    </classes>
+  </test> <!-- Cucumber_Test_empreg(failed) -->
+</suite> <!-- Failed suite [Test_Suite] -->
